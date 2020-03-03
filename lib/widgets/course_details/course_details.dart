@@ -36,7 +36,7 @@ class CourseDetails extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+              'A new venture of GeekyAnts aiming to provide industrial level training on the Flutter.',
               style: TextStyle(
                 fontSize: descriptionSize,
                 //  height: 1.7
