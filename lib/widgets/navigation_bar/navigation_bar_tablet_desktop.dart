@@ -8,17 +8,18 @@ class NavigationBarTabletDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 100,
+      // color: Colors.yellow,
       child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            NavBarLogo(),
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: <Widget>[
-                NavBarItem('Episodes'),
-                SizedBox(width: 60),
-                NavBarItem('About')
-              ],
+            Expanded(child: NavBarLogo(), flex: 5),
+            Expanded(child: NavBarItem('Programs'), flex: 2),
+            // Spacer(),
+            Expanded(child: NavBarItem('Career'), flex: 2),
+            // Spacer(),
+            Expanded(
+              child: NavBarItem('Sign In'),
+              flex: 0,
             )
           ]),
     );
