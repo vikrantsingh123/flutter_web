@@ -1,5 +1,5 @@
-import 'package:demo/widgets/call_to_action/call_to_action.dart';
 import 'package:demo/widgets/course_details/course_details.dart';
+import 'package:demo/widgets/join_course/join_course_action.dart';
 import 'package:flutter/material.dart';
 
 class HomeContentMobile extends StatelessWidget {
@@ -11,7 +11,7 @@ class HomeContentMobile extends StatelessWidget {
         children: <Widget>[
           CourseDetails(),
           SizedBox(height: 100),
-          CallToAction('Join Course')
+          JoinCourse('Join The Course'),
         ]);
   }
 }
