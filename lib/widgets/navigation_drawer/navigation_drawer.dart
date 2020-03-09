@@ -14,8 +14,9 @@ class NavigationDrawer extends StatelessWidget {
             boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 16)]),
         child: Column(children: <Widget>[
           NavigationDrawerHeader(),
-          DrawerItem(title: 'Episodes', icon: Icons.videocam),
-          DrawerItem(title: 'About', icon: Icons.help)
+          DrawerItem(title: 'Programs', icon: Icons.library_books),
+          DrawerItem(title: 'Career', icon: Icons.group),
+          DrawerItem(title: 'Sign In', icon: Icons.face)
         ]),
       ),
     );
